@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hotel {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.hotel img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hotel .name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.hotel .price {
+  font-weight: bold;
+}
+
+.hotel .rating {
+  color: #ffc107;
+}
+
+.hotel .description {
+  margin-top: 10px;
+}
