@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hotelsData = [
     {
       name: "Mainne Hotel",
-      image: "hotel1.jpg",
+      image: "/images/maine.jpg",
       price: "$100 per night",
       rating: 4.5,
       description: "A beautiful hotel with stunning views.",
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Paradise Farmcation",
-      image: "hotel2.jpg",
+      image: "/images/paradise.jpg",
       price: "$120 per night",
       rating: 4.2,
       description: "A cozy resort with excellent amenities.",
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "La Playa Merced",
-      image: "hotel2.jpg",
+      image: "/images/laPlaya.jpg",
       price: "$120 per night",
       rating: 5.0,
       description: "Beach Resort.",
