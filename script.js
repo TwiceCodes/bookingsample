@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "$100 per night",
       rating: 4.5,
       description: "A beautiful hotel with stunning views.",
+      facebook: "https://www.facebook.com/mainnehotel", // Adding Facebook link for Mainne Hotel
     },
     {
       name: "Paradise Farmcation",
@@ -16,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "$120 per night",
       rating: 4.2,
       description: "A cozy resort with excellent amenities.",
+      facebook: "https://www.facebook.com/paradisefarmcation", // Adding Facebook link for Paradise Farmcation
     },
     {
       name: "La Playa Merced",
@@ -23,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "$120 per night",
       rating: 5.0,
       description: "Beach Resort.",
+      facebook: "https://www.facebook.com/laplayamerced", // Adding Facebook link for La Playa Merced
     },
     // Add more hotel objects as needed
   ];
@@ -62,5 +65,13 @@ document.addEventListener("DOMContentLoaded", function () {
     hotelElement.appendChild(descriptionElement);
 
     hotelsContainer.appendChild(hotelElement);
+
+    // Facebook Link (Appended at the bottom)
+    const facebookLink = document.createElement("a");
+    facebookLink.href = hotel.facebook;
+    facebookLink.textContent = "Visit Facebook Page";
+    facebookLink.classList.add("facebook-link");
+    facebookLink.target = "_blank"; // Open link in new window/tab
+    hotelElement.appendChild(facebookLink);
   });
 });
